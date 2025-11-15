@@ -30,10 +30,10 @@ Therefore, the transfer function of proportional integral controller is Kp+Kis. 
 
 ### Proportional Integral Derivative (PID) Controller:
 The proportional integral derivative controller produces an output, which is the combination of the outputs of proportional, integral and derivative controllers. <br>
-u(t)=Kp e(t)+Ki ∫e(t)dt+ Kd (de(t)/dt) <br>
-Apply Laplace transform on both sides - <br>
-U(s)=(Kp+Ki/s+Kds)E(s) <br>
-U(s)/E(s)=Kp+Ki/s+Kd s <br>
+u(t)=Kp e(t)+Ki ∫e(t)dt+ Kd (de(t)/dt) 
+Apply Laplace transform on both sides - 
+U(s)=(Kp+Ki/s+Kds)E(s) 
+U(s)/E(s)=Kp+Ki/s+Kd s 
 Therefore, the transfer function of the proportional integral derivative controller is Kp+Ki/s+Kd s
 
 ### Characteristics of Kp, Ki and Kd terms:
